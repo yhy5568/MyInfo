@@ -199,7 +199,9 @@ body{
 
 .header-left{
     margin-top:30px;
-    padding-left:40rem
+    /* padding-left:40rem */
+    position: absolute;
+    left: 46%;
 }
 
 @media print{
@@ -549,7 +551,7 @@ ul.icons a{
 .projects-container h3,.experience-container h3,.education-container h3{
     margin-bottom:0;
     font-weight:600;
-    font-size:45px
+    font-size:3rem
 }
 
 .layout{
