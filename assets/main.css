@@ -404,7 +404,7 @@ h3{
 
 h4{
     font-weight:300;
-    font-size:2.5rem;
+    font-size:2.2rem;
     margin-bottom:3px
 }
 
@@ -518,8 +518,8 @@ ul.icons a{
 .profile-img{
     width:200px;
     height:200px;
-    margin:0 auto;
-    margin-bottom:20px;
+    margin:0 -40px 20px auto;
+    
     display:block;
     border-radius:100px;
     background-size:cover;
@@ -554,7 +554,7 @@ ul.icons a{
 
 .layout .details p{
     margin-bottom:3px;
-    font-size:1.6rem;
+    font-size:1.4rem;
     text-align:inherit;
     font-weight:300
 }
@@ -583,7 +583,7 @@ ul.icons a{
 }
 
 .layout .details .link{
-    font-size:1.5rem
+    font-size:1.6rem
 }
 
 .layout .details h4{
@@ -619,9 +619,9 @@ ul.icons a{
     }
 }
 
-.layout-top-middle .details{
+/* .layout-top-middle .details{
     text-align:center
-}
+} */
 
 .footer-container{
     margin-top:100px
@@ -656,11 +656,32 @@ ul.icons a{
     color:#4C4C4C
 }
 
+p.url_link{
+    font-size:1.8rem;
+}
+
 p.quote{
-    font-size:1.4rem;
+    font-size:1.6rem;
     font-style:italic;
     padding:1rem 2.5rem;
     text-align:center
+}
+
+p.refer{
+    font-size:1.3rem;
+    text-align:left
+}
+
+p.second_title{
+    font-size:1.6rem;
+    padding:1rem 2.5rem;
+    margin-left: 2rem;
+}
+
+p.second_title_contents{
+    font-size:1.35rem;
+    padding:1rem 2.5rem;
+    margin-left: 5rem;
 }
 
 @media print{
