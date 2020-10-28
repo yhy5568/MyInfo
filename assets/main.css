@@ -521,11 +521,11 @@ ul.icons a{
 
 .profile-img{
     width:200px;
-    height:200px;
-    margin:15px 10px 20px auto;
+    height:230px;
+    margin:25px -40px 20px auto;
     
     display:block;
-    border-radius:100px;
+    /* border-radius:100px; */
     background-size:cover;
     /* background-position:center; */
     background-repeat:repeat, no-repeat;
@@ -594,7 +594,8 @@ ul.icons a{
 
 .layout .details h4{
     margin-bottom:0.1rem;
-    font-weight:400
+    font-weight:400;
+    margin-top:5rem
 }
 
 @media print{
@@ -664,6 +665,7 @@ ul.icons a{
 
 p.url_link{
     font-size:1.8rem;
+    margin-left: 3.5rem;
 }
 
 p.quote{
@@ -688,6 +690,20 @@ p.second_title_contents{
     font-size:1.35rem;
     padding:1rem 2.5rem;
     margin-left: 5rem;
+}
+
+p.second_title_contents_2{
+    font-size:1.35rem;
+    padding:1rem 2.5rem;
+    margin-left: 8rem;
+    margin-top: -1.5rem;
+}
+
+p.second_title_contents_3{
+    font-size:1.35rem;
+    padding:1rem 2.5rem;
+    margin-left: 11rem;
+    margin-top: -1.5rem;
 }
 
 @media print{
