@@ -520,8 +520,8 @@ ul.icons a{
 }
 
 .profile-img{
-    width:200px;
-    height:230px;
+   /*  width:200px;
+    height:230px; */
     margin:25px -25px 20px auto;
     
     display:block;
